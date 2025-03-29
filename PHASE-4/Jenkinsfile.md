@@ -64,7 +64,7 @@ pipeline {
             steps {
                 script {
                    withDockerRegistry(credentialsId: 'docker-cred', toolName: 'docker') {
-                            sh "docker build -t ebonje/java-maven-app:1.0 ."
+                            sh "docker build -t juliet237/java-maven-app:1.0 ."
                    }    
                 }     
             } 
