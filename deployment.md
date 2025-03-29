@@ -165,7 +165,7 @@ spec:
     spec:
       containers:
         - name: java-maven-app
-          image: ebonje/java-maven-app:1.0 # this image will be used by containers in the cluster
+          image: juliet237/java-maven-app:1.0 # this image will be used by containers in the cluster
           imagePullPolicy: Always
           ports:
             - containerPort: 8080 # The port that the container is running on in the cluster
